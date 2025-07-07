@@ -14,7 +14,6 @@ class CustomCircleDrawable: Drawable {
     var coordenadas: RectF? = null
     var anguloBarrido: Float = 0.0F
     var anguloInicio: Float = 0.0F
-    var anguloMetrica: Float = 0.0F
     var grosorMetrica: Int = 0
     var grosorFondo: Int = 0
     var context : Context? = null
@@ -24,6 +23,7 @@ class CustomCircleDrawable: Drawable {
         this.context = context
         grosorMetrica = context.resources.getDimensionPixelSize(R.dimen.graphWith)
         grosorFondo = context.resources.getDimensionPixelSize(R.dimen.graphBackground)
+        this.emociones = emociones
     }
 
     override fun draw(p0: Canvas) {

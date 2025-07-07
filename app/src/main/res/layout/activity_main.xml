@@ -19,9 +19,10 @@
             android:orientation="vertical">
 
             <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_marginTop="40dp"
                 android:layout_width="250dp"
                 android:layout_height="250dp"
-                android:layout_gravity="center"
+                android:layout_gravity="center_horizontal"
                 android:id="@+id/graph">
 
                 <ImageView
